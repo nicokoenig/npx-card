@@ -1,0 +1,27 @@
+{
+  "name": "nicokoenig",
+  "version": "1.0.0",
+  "description": "npx busiess card for nico koenig",
+  "main": "index.js",
+  "bin": {
+    "nicokoenig": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicokoenig/npx-card.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nico Koenig",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
